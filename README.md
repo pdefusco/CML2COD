@@ -2,6 +2,7 @@
 
 This project demonstrates how to use a Cloudera Operational Database instance in conjunction with Cloudera Machine Learning
 
+
 ## Project Overview
 
 There are two sections:
@@ -9,12 +10,19 @@ There are two sections:
 1) Setup & Prerequisites
 2) Demonstration
 
+
 ### Setup & Requirements
 
-In order to make this work, we assume you have set up IDBroker Mappings and Ranger permissions in CDP. For documentation on how to do that please use the follwoing links:
+In order to make this work, we assume you have set up your CDP environment, IDBroker Mappings and Ranger permissions in CDP. 
 
-Link 1
-Link 2
+For instructions on how to do that please use the follwoing links:
+
+- [Getting Started with CDP](https://docs.cloudera.com/cdp/latest/index.html)
+
+- [ID Broker Mappings](https://docs.cloudera.com/runtime/7.2.0/cdp-security-overview/topics/security_how_identity_federation_works_in_cdp.html)
+
+- [Ranger Permissions in CDP](https://docs.cloudera.com/runtime/7.2.2/security-ranger-authorization/topics/security-ranger-provide-authorization-cdp.html)
+
 
 ##### Environment Variable Setup
 
@@ -55,4 +63,5 @@ Start a CML Session with the following settings:
 - Edition: Standard
 - Resource Profile: 1 vCPU / 2GiB Memory
 
-The notebook contains instructions. If you are new to Jupyter Notebooks, you can execute each cell by pressing "Shift Command Enter" at the same time on your keyboard.
+Run the "COD_Demo" notebook. The notebook does not require any changes to the code and contains instructions. 
+If you are new to Jupyter Notebooks, you can execute each cell by pressing "Shift Command Enter" at the same time on your keyboard.
