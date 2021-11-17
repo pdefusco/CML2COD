@@ -1,4 +1,4 @@
-# CML COD Integration Quickstart
+# CML2COD
 
 This project demonstrates how to use a Cloudera Operational Database instance in conjunction with Cloudera Machine Learning
 
