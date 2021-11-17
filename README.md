@@ -11,7 +11,7 @@ There are two sections:
 2) Demonstration
 
 
-### Setup & Requirements
+### Setup & Prerequisites
 
 In order to make this work, we assume you have set up your CDP environment, IDBroker Mappings and Ranger permissions in CDP. 
 
